@@ -1,0 +1,131 @@
+.flex-container {
+    display: flex;
+}
+
+/*columna 1*/
+.Contactos-col1 {
+    display: flex;
+    min-height: 880px;
+    background-color: #ffffff;
+    flex-direction: column;
+    flex: 2 0 14rem;
+    justify-content: flex-start;
+
+}
+
+/*columna 2*/
+.Caja-logo-col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*caja exterior de contactos*/
+.caja-de-contactos {
+    display: flex;
+    align-items: center;
+    border: 2px solid #e6e6e6e7;
+    justify-content: space-between;
+    padding: 14px 20px;
+
+}
+
+.caja-de-contactos-m {
+    display: flex;
+    align-items: center;
+    border: 2px solid #e6e6e6ec;
+    justify-content: space-between;
+    padding: 0px 6px;
+}
+
+.caja-maria {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    justify-content: space-between;
+    width: 100%;
+    height: 64px;
+}
+
+.texto-maria {
+    margin-right: 2em;
+    width: 120px;
+}
+
+h2 {
+    margin: 12px 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+#img-maria {
+    border-radius: 60%;
+    height: 50px;
+    width: auto;
+}
+
+/*caja boton*/
+.boton-chat {
+    border: 2px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 130px;
+
+}
+
+/*boton*/
+button {
+    background-color: #aa86bb;
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 55px;
+    width: 226px;
+    padding: 6px 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.contactos-perfiles {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+/*imagenes de contactos*/
+#img-contactos {
+    border-radius: 60%;
+    height: 50px;
+    width: auto;
+}
+
+.texto-contactos {
+    margin-left: 1.5em;
+    align-items: center;
+
+}
+
+#img-manos {
+    width: 28%;
+    margin-bottom: 22px;
+}
+
+.text-chat {
+    width: 390px;
+    text-align: center;
+}
+
+/*color de la letra del spam*/
+p {
+    color: rgba(88, 88, 88, 0.952);
+    margin: 0;
+}
