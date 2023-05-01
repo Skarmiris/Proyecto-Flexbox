@@ -29,7 +29,11 @@
     border: 2px solid #e6e6e6e7;
     justify-content: space-between;
     padding: 14px 20px;
+}
 
+.caja-de-contactos:hover {
+    transition: all 500ms ease;
+    background-color: #e6e6e6cc;
 }
 
 .caja-de-contactos-m {
@@ -105,7 +109,7 @@ button:hover {
 .contactos-perfiles {
     display: flex;
     align-items: center;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffffe8; */
     width: 100%;
     height: auto;
 }
